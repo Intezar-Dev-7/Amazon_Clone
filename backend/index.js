@@ -18,7 +18,7 @@ const productRouter = require("./routes/productRoute");
 const PORT = 3000;
 const app = express();
 
-const DBURL = "mongodb+srv://developer:developer1234@cluster0.tbmxtxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const DBURL = "mongodb+srv://<username>:<password>@cluster0.tbmxtxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 
 // Middleware
